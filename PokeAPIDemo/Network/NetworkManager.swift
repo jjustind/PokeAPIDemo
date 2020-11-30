@@ -21,19 +21,10 @@ final class NetworkManager {
     
     func getNetworkData(from urlString: String, completion: @escaping (Result<Pokemon, Error>) -> () ) {
         
-        
-        let username = "trekkadmin"
-        let password = "p*Q3Ns7QPXhfWia#Hg"
-        
-        let url = URL(string: urlString)!
+        guard let url = URL(string: urlString) else { fatalError("Unable to create url from String in Network Manager closing statement.") }
         let request = URLRequest(url:url)
 
         let config = URLSessionConfiguration.default
-        let userPasswordString = "\(username):\(password)"
-        let userPasswordData = userPasswordString.data(using: String.Encoding.utf8)
-        let base64EncodedCredential = userPasswordData!.base64EncodedString()
-        let authString = "Basic \(base64EncodedCredential)"
-        config.httpAdditionalHeaders = ["Authorization" : authString]
         let session = URLSession(configuration: config)
         
         session.dataTask(with: request) { (data, response, error) in

@@ -22,6 +22,8 @@
 		D064D65925736DE6009E5DFF /* ProtocolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D064D65825736DE6009E5DFF /* ProtocolViewController.swift */; };
 		D0A0ED3425746CE2009955D0 /* ClosureTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A0ED3325746CE2009955D0 /* ClosureTableViewCell.swift */; };
 		D0A0ED3725747630009955D0 /* ClosureDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A0ED3625747630009955D0 /* ClosureDetailViewController.swift */; };
+		D0A0ED3A25747DF8009955D0 /* ProtocolTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A0ED3925747DF8009955D0 /* ProtocolTableViewCell.swift */; };
+		D0A0ED3D25747F44009955D0 /* ProtocolDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A0ED3C25747F44009955D0 /* ProtocolDetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,8 @@
 		D064D65825736DE6009E5DFF /* ProtocolViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolViewController.swift; sourceTree = "<group>"; };
 		D0A0ED3325746CE2009955D0 /* ClosureTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosureTableViewCell.swift; sourceTree = "<group>"; };
 		D0A0ED3625747630009955D0 /* ClosureDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClosureDetailViewController.swift; sourceTree = "<group>"; };
+		D0A0ED3925747DF8009955D0 /* ProtocolTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolTableViewCell.swift; sourceTree = "<group>"; };
+		D0A0ED3C25747F44009955D0 /* ProtocolDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolDetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +97,7 @@
 				D064D6292572D673009E5DFF /* Main.storyboard */,
 				D064D6312572D674009E5DFF /* LaunchScreen.storyboard */,
 				D0A0ED3325746CE2009955D0 /* ClosureTableViewCell.swift */,
+				D0A0ED3925747DF8009955D0 /* ProtocolTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -138,6 +143,7 @@
 				D064D6272572D673009E5DFF /* ViewController.swift */,
 				D064D65825736DE6009E5DFF /* ProtocolViewController.swift */,
 				D0A0ED3625747630009955D0 /* ClosureDetailViewController.swift */,
+				D0A0ED3C25747F44009955D0 /* ProtocolDetailViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -215,7 +221,9 @@
 				D064D6282572D673009E5DFF /* ViewController.swift in Sources */,
 				D0A0ED3725747630009955D0 /* ClosureDetailViewController.swift in Sources */,
 				D064D6412573655C009E5DFF /* Pokemon.swift in Sources */,
+				D0A0ED3A25747DF8009955D0 /* ProtocolTableViewCell.swift in Sources */,
 				D064D6242572D673009E5DFF /* AppDelegate.swift in Sources */,
+				D0A0ED3D25747F44009955D0 /* ProtocolDetailViewController.swift in Sources */,
 				D064D65325736913009E5DFF /* ProtocolNetworkManager.swift in Sources */,
 				D064D63C25736480009E5DFF /* NetworkManager.swift in Sources */,
 				D064D64B25736646009E5DFF /* IndividualPokemon.swift in Sources */,

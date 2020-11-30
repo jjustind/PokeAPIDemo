@@ -45,13 +45,13 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         performSegue(withIdentifier: "closure", sender: self)
+        _closureTableView.deselectRow(at: indexPath, animated: true)
     }
     
     fileprivate func getNetworkData() {
         NetworkManager.shared.getNetworkData(from: url) { (result) in
             switch result {
             case .success(let returns):
-                print(returns)
                 
                 if let poke = returns.results {
                     self.pokemon = poke

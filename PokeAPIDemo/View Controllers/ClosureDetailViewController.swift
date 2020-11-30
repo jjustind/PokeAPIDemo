@@ -14,6 +14,7 @@ class ClosureDetailViewController: UIViewController {
     
     var name = String()
     var url = String()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
