@@ -27,6 +27,7 @@ class ProtocolViewController: UIViewController, UITableViewDataSource, UITableVi
         let protocolNetworkManager = ProtocolNetworkManager()
         protocolNetworkManager.delegate = self
         protocolNetworkManager.getNetworkData(from: url)
+        showAlert(Message: "Stand by, please.", Title: "We lost the Poké flute, so we're trying dynamite.")
     }
     
 

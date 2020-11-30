@@ -26,6 +26,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         _closureTableView.dataSource = self
         
         getNetworkData()
+        showAlert(Message: "Stand by, Please.", Title: "This Snorlax isn't going to wake itself.")
     }
     
     //MARK: Table View Delegates
