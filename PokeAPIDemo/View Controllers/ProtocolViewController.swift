@@ -11,7 +11,7 @@ class ProtocolViewController: UIViewController, UITableViewDataSource, UITableVi
  
     
     
-    let url = "https://pokeapi.co/api/v2/pokemon?limit=151%27"
+    let url = "https://pokeapi.co/api/v2/pokemon?limit=151"
     var pokemon = [SinglePokemon]()
     var protocolAlert = UIAlertController()
 

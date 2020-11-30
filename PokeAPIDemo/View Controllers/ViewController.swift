@@ -11,7 +11,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     @IBOutlet var _closureTableView: UITableView!
     
-    let url = "https://pokeapi.co/api/v2/pokemon?limit=151%27"
+    let url = "https://pokeapi.co/api/v2/pokemon?limit=151"
     
     var pokemon = [SinglePokemon]()
     var alert = UIAlertController()
